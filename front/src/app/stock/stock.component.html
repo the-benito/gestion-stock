@@ -9,7 +9,7 @@
         <fa-icon [icon]="faPlus"></fa-icon>
       </a>
       <button title="Supprimer" *ngIf="selectedArticles.size > 0">
-        <fa-icon [icon]="faTrashCan"></fa-icon>
+        <fa-icon [icon]="faTrashCan" (click)="remove()"></fa-icon>
       </button>
     </nav>
     <div class="error">
