@@ -23,8 +23,6 @@ let articles: Article[] = [
 export class ArticleService {
   articles$ = new BehaviorSubject<Article[] | undefined>(undefined);
 
-  constructor() {}
-
   add(newArticle: NewArticle): Observable<void> {
     return of(undefined).pipe(
       tap(() => {
