@@ -18,3 +18,5 @@ https://www.conventionalcommits.org/en/v1.0.0/
 https://github.com/jlg-formation/agupa1-july-2023/tree/master
 
 refactoring guru
+
+web.dev/rail

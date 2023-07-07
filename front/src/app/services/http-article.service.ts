@@ -34,4 +34,15 @@ export class HttpArticleService extends ArticleService {
       })
     );
   }
+
+  override delete(ids: string[]): Observable<void> {
+    return of(undefined).pipe(
+      delay(1000),
+      switchMap(() => {
+        return this.http.delete<void>(url, {
+          body: ids,
+        });
+      })
+    );
+  }
 }
