@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ArticleService } from './article.service';
-import { Observable, delay, map, of, switchMap } from 'rxjs';
+import { Observable, map, of, switchMap } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Article, NewArticle } from '../interfaces/article';
 
@@ -16,7 +16,6 @@ export class HttpArticleService extends ArticleService {
 
   override refresh(): Observable<void> {
     return of(undefined).pipe(
-      delay(1000),
       switchMap(() => {
         return this.http.get<Article[]>(url);
       }),
@@ -28,7 +27,6 @@ export class HttpArticleService extends ArticleService {
 
   override add(newArticle: NewArticle): Observable<void> {
     return of(undefined).pipe(
-      delay(1000),
       switchMap(() => {
         return this.http.post<void>(url, newArticle);
       })
@@ -37,7 +35,6 @@ export class HttpArticleService extends ArticleService {
 
   override delete(ids: string[]): Observable<void> {
     return of(undefined).pipe(
-      delay(1000),
       switchMap(() => {
         return this.http.delete<void>(url, {
           body: ids,

@@ -20,3 +20,4 @@ https://github.com/jlg-formation/agupa1-july-2023/tree/master
 refactoring guru
 
 web.dev/rail
+https://eslint.org/docs/latest/rules/
