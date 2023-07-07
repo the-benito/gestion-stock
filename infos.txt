@@ -1,0 +1,20 @@
+package.json => package-lock.json
+npm i => npm ci
+
+GET path?queryString
+
+https://github.com/jlg-formation/agupa1-july-2023
+
+shift . => ouvre un VSCODE sur github
+
+hoisting
+
+ctrl shift o => extension typescript class organizer
+
+https://ux-lois.github.io/
+https://docs.emmet.io/cheat-sheet/
+https://expressjs.com/fr/starter/hello-world.html
+https://www.conventionalcommits.org/en/v1.0.0/
+https://github.com/jlg-formation/agupa1-july-2023/tree/master
+
+refactoring guru
