@@ -18,6 +18,7 @@ https://www.conventionalcommits.org/en/v1.0.0/
 https://github.com/jlg-formation/agupa1-july-2023/tree/master
 
 refactoring guru
+https://rxmarbles.com/#combineLatest
 
 web.dev/rail
 https://eslint.org/docs/latest/rules/
